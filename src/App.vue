@@ -1,7 +1,11 @@
 <template>
-  <nav>
+  <nav id="nav">
     <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
+    <router-link to="/about">About</router-link> |
+    <router-link to="/customers">customers</router-link>|
+    <router-link to="/categories">categories</router-link>|
+    <router-link to="/pay_mode">Pay Mode</router-link>|
+    <router-link to="/products">Products</router-link>
   </nav>
   <router-view/>
 </template>
